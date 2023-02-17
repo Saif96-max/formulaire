@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>formulaire de contact</title>
+</head>
+
+<body>
+    <form action="" method="get" class="x">
+        <fieldset>
+        <legend class="test"> votre identité </legend >
+            <p> <label for="nom">Nom:</label>
+                <input type="text" name="nom" id="nom">
+
+                <label for="prenom">Prénom:</label>
+                <input type="text" name="prenom" id="prenom">
+            </p>
+            <p>
+                <label for="Age">Votre âge:</label>
+                <input type="text" name="Age" id="Age">
+
+                <label for="Sexe">Votre Sexe:</label>
+                <select name="Sexe" id="Sexe">
+                   
+                    <option value="Homme">Homme</option>
+
+                    <option value="Femme">Femme</option>
+
+                    <option value="Autre">Autre</option> 
+
+                    <option value="selectionnez" selected>Sélectionnez:</option>
+                </select>
+
+       
+           </p> 
+       
+        <legend class="test">Vos coordonnées </legend>
+
+            <p>
+                <label for="email">Adresse mail:</label>
+                <input type="email" name="email" id="email" size="30" placeholder="Ex:exemple@.com">
+            </p>
+            <p>
+                <label for="adresse">Adresse Postale:</label>
+                <input type="text" name="adresse" id="adresse" size="30">
+            </p>
+            <p>
+                <label for="ville"> ville:</label>
+                <input type="text" name="ville" id="ville" placeholder="Ex:Daoui">
+
+                <label for="codepostale">Code Postale:</label>
+                <input type="text" name="codePostale" id="codepostale" size="5" maxlength="5" placeholder="Ex:59500">
+            </p>
+            <p>
+                <label for="datedenaissance">Date de naissance:</label>
+                <input type="text" name="detedenaissance" id="datedenaissance">
+
+                <label for="paysdenaissance">Pays de naissance:</label>
+                <input type="text" name="paysdenaissance" id="paysdenaissance">
+
+                <label for="natoinalite">Nationalité:</label>
+                <select name="natoinalite" id="natoinalite">
+
+                    <option value="Par defauts">Par défaut</option>
+                    <option value="irakienne">irakienne</option>
+                    <option value="franiscaise">française</option>
+                    <option value="suedoise">suédoise</option>
+                    <option value="Bresilienne">Brésilienne</option>
+                    <option value="Autre">Autre</option>
+                </select>
+            </p>
+            <p>
+                <label for="securitesocial"> Numéro sécurité social:</label>
+                <input type="text" name="securitesocial" id="securitesocial">
+            </p>
+            <p>
+                Métier exercé: <br>
+                <label for="coiffeur">coiffeur:</label>
+                <input type="radio" name="metier" value="coiffure" id="coiffeur">
+
+                <label for="veterinaire">Vétérinaire:</label>
+                <input type="radio" name="metier" value="veterinaire" id="veterinaire">
+
+                <label for="fermier">fermier:</label>
+                <input type="radio" name="metier" value="fermier" id="fermier">
+
+                <label for="secretaire">Secrétraire:</label>
+                <input type="radio" name="metier" value="secretaire" id="secretaire">
+
+                <label for="autre">Autre:</label>
+                <input type="radio" name="metier" value="autre" id="autre">
+            </p>
+            <p>
+                <label for="passeport"> Numéro du passeport:</label>
+                <input type="text" name="passeport" id="passeport">
+            </p>
+            <p>
+                <label for="datedupasseport">Date de délivrance du passeport:</label>
+                <input type="date" name="datedupasseport" id="datedupasseport">
+                
+                <label for="date">Date de validité du passeport:</label>
+                <input type="date" name="date" id="date">
+            </p>
+            <input type="submit" value="Envoyer">
+       </fieldset>
+    </form>
+
+</body>
+
+</html>
